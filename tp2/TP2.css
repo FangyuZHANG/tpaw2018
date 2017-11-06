@@ -1,0 +1,31 @@
+label
+{
+	width: 170px;display :inline-block;
+}
+
+
+
+#error
+{
+	background-color:purple; 
+	font-size:5px;
+	padding:5px
+	border=1px
+	color=black;
+	visibility: hidden;
+}
+
+
+
+
+#resultat
+{
+	background-color:green; 
+	font-size:5px;
+	padding:5px
+	color=white;
+	visibility: hidden;
+}
+
+visible { visibility:visible; }
+cache  { visibility:hidden; }

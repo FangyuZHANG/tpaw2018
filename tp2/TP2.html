@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<link rel="stylesheet" href="TP2.css" />
+			<script type="text/javascript" src="formulaire.js"></script>
+			<title><div align="center">Saisie d'une fiche "Personne"</div></title>
+	</head>
+
+	<body style="background-color:gray">
+
+		<h1><b>Saisie d'une fiche "Personne"</b></h1>
+
+		<form style="background-color:white">
+	
+			<h2>New Client</h2>
+
+			<label for="Nom">Nom:</label>
+				<input type="text" id="Nom" placeholder="Au moins 5 caracteres" maxlength="20">
+			<br/>
+
+			<label for="Prenom">Prénom:</label>
+				<input type="text" id="Prenom" placeholder="Au moins 5 caracteres" maxlength="20">
+			<br/>
+
+			<p>
+				<input type="radio" name="F/H" value="Femme" /> Madame
+				<input type="radio" name="F/H" value="homme" /> Monsieur
+			</p>
+	 
+			<label for"Date de naissance">Date de naissance:</label>
+				<input type:"text" id="Date de naissance" placeholder="JJ/MM/AAAA">
+			<br/>
+
+			<label for="Adresse">Adresse:</label>
+				<input type="text" id="Adresse" placeholder="Adresse" maxlength="50">
+			<br/>
+
+			<label for="Mail">Mail:</label>
+				<input type="text" id="Mail" placeholder="Mail" maxlength="50">
+			<br/><br/>
+
+			<input type="submit" name="valider" value="Valider" onclick="valider()">
+
+		</form> 
+
+	<div id="error"></div>
+
+	<div id="resultat"></div> 
+
+	</body>
+
+</html>
